@@ -1,0 +1,45 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LOTR GIFs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/CSS/reset.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/CSS/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/JS/app.js"></script>
+</head>
+
+<body>
+
+    <div class=container>
+        <div class="search-box">
+            <h2>LOTR Giphy Search</h2>
+
+            <!-- Rendered Buttons will go here  -->
+            <div id="buttons-view"></div>
+
+            <form id="character-form">
+                <label for="character-input">Add a LOTR Character Name</label>
+                <br>
+                <input type="text" id="character-input">
+                <br>
+
+                <!-- Button triggers new character to be added -->
+                <input id="add-character" type="submit" value="Submit">
+            </form>
+            <br>
+
+            <!-- Characters will go here-->
+            <div id="characters-view"></div>
+
+        </div>
+        <div id="gifs"></div>
+    </div>
+</body>
+
+</html>
